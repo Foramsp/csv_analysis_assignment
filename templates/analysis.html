@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Data Analysis</title>
+</head>
+<body>
+    <h1>Data Analysis Results</h1>
+    <h2>First Few Rows</h2>
+    {{ head|safe }}
+    <h2>Summary Statistics</h2>
+    {{ desc|safe }}
+    <h2>Missing Values</h2>
+    <ul>
+    {% for key, value in missing_values.items %}
+        <li>{{ key }}: {{ value }}</li>
+    {% endfor %}
+    </ul>
+    <h2>Histogram</h2>
+    <img src="data:image/png;base64,{{ plot }}" alt="Histogram">
+</body>
+</html>
