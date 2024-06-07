@@ -119,3 +119,12 @@ STEP 6 : CONFIGURATION
 
 2. In csv_analysis_project/urls.py, add media URL configuration.
 ![image](https://github.com/Foramsp/csv_analysis_assignment/assets/87531019/6618887c-a6e5-4ae4-b243-d0f5e17ef55a)
+
+
+Usage
+Upload a CSV file using the provided form.
+View the first few rows of the data, summary statistics, and histograms for numerical columns.
+Explore the data analysis results and visualizations on the web interface.
+
+Contributors
+FORAM DADHANIYA
