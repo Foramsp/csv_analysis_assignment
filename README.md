@@ -121,6 +121,18 @@ STEP 6 : CONFIGURATION
 ![image](https://github.com/Foramsp/csv_analysis_assignment/assets/87531019/6618887c-a6e5-4ae4-b243-d0f5e17ef55a)
 
 
+OUTPUT:
+
+![image](https://github.com/Foramsp/csv_analysis_assignment/assets/87531019/aefdb11a-a711-4577-8b92-4a2e68a4621c)
+
+![image](https://github.com/Foramsp/csv_analysis_assignment/assets/87531019/e3703bfb-3148-4e36-ae92-d37d950541e9)
+
+![image](https://github.com/Foramsp/csv_analysis_assignment/assets/87531019/4051ec02-b0aa-4dd3-a5e0-2aac900ff8c6)
+
+![image](https://github.com/Foramsp/csv_analysis_assignment/assets/87531019/89a1f6be-88ec-406f-b467-8c2c8dd22111)
+
+
+
 Usage
 Upload a CSV file using the provided form.
 View the first few rows of the data, summary statistics, and histograms for numerical columns.
