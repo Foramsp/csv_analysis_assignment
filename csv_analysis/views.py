@@ -45,6 +45,12 @@ def data_analysis(request, file_name):
     # Generate plots
     plt.figure(figsize=(10, 4))
     sns.histplot(df.select_dtypes(include=[np.number]).dropna(), kde=True)
+    sns.histplot(df['Period'], bins=15, kde=True)  # Adjust 'bins' as needed
+
+    plt.title('Histogram of Data Values')
+    plt.xlabel('Period')
+    plt.ylabel('Data Values')
+
     buffer = BytesIO()
     plt.savefig(buffer, format='png')
     plt.close()
@@ -59,3 +65,4 @@ def data_analysis(request, file_name):
         'missing_values': missing_values,
         'plot': image_base64,
     })
+plt.show()
